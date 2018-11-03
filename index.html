@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <title>BMI Calculator</title>
+  
+      <link rel="stylesheet" href="css/style.css">
+ 
+</head>
+
+<body>
+  
+<div class="container container_banner">
+  <div class="section">
+    <div class="block banner_img"><img class="headlogo" src="img/BMICLogo.png" alt=""/></div>
+    <div class="block info">
+      <label class="title">身高 cm</label>
+      <input class="heightInput" type="text" placeholder="請輸入身高"/>
+      <label class="title">體重 kg</label>
+      <input class="weightInput" type="text" placeholder="請輸入體重"/>
+    </div>
+    <div class="block btn">
+      <input class="btnsend" type="button" value="看結果"/>
+    </div>
+  </div>
+</div>
+<div class="container container_content">
+  <div class="section">
+    <div class="block content">
+      <h2>BMI 紀錄</h2>
+      <ul class="bmilist"></ul><a class="clearlist">清除歷史紀錄</a>
+    </div>
+  </div>
+</div>
+<div class="container container_footer">   
+  <div class="block footer"><img class="footerlogo" src="img/BMICLogo-gray.png" alt=""/></div>
+</div>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script>
+
+    <script  src="js/index.js"></script>
+
+</body>
+
+</html>
