@@ -52,7 +52,7 @@ body {
 .info {
   width: 35%;
   padding-top: 70px;
-  padding-left: 10px;
+  padding-left: 20px;
 }
 .info label, .info input {
   display: block;
