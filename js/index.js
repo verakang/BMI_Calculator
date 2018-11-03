@@ -164,7 +164,7 @@ function btnset(){
       break;      
   } 
   
-  // 監聽refreshbtn
+  // refreshbtn_刷新頁面
   refreshbtn.onclick = function(){
 		history.go(0);
   }
