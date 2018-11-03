@@ -211,6 +211,7 @@ body {
   background-color: #fff;
   padding: 10px 15px;
   border-radius: 5px;
+  color: #4A4A4A;
   cursor: pointer;
 }
 .content a.clearlist:hover {
@@ -357,7 +358,7 @@ body {
     height: auto;
   }
   .section .info {
-    padding-left: 20px;
+    padding-left: 25px;
     width: 30%;
   }
   .section .info label, .section .info input {
@@ -368,9 +369,10 @@ body {
     margin-top: 12px;
   }
   .section .info input {
-    width: 85%;
+    width: 95%;
     height: 40px;
-    font-size: 22px;
+    font-size: 18px;
+    padding-left: 5px;
   }
   .section .btn {
     padding-left: 10px;
@@ -380,21 +382,21 @@ body {
   .section .btn input.btnsend {
     width: 100px;
     height: 100px;
-    margin-left: -20px;
+    margin-left: 0px;
     font-size: 24px;
   }
   .section .btn input.btn_lvl {
     width: 100px;
     height: 100px;
-    margin-left: -30px;
+    margin-left: -10px;
     font-size: 28px;
     position: relative;
   }
   .section .lvlreturn {
     text-align: center;
     box-sizing: border-box;
-    margin-left: -15px;
-    padding-top: 5px;
+    margin-left: 0px;
+    padding-top: 10px;
     font-size: 20px;
     position: absolute;
     width: 100%;
