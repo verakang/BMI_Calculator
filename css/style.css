@@ -305,7 +305,7 @@ body {
     text-align: center;
     box-sizing: border-box;
     margin-left: -15px;
-    padding-top: 5px;
+    padding-top: 10px;
     font-size: 20px;
     position: absolute;
     width: 100%;
@@ -324,9 +324,11 @@ body {
 }
 @media screen and (max-width: 600px) {
   .btn .bmi {
-    display: none;
+    left: 37%;
   }
-
+  .btn .lvlreturn {
+    padding-top: 10px;
+  }
   .content ul li table td.td_01 {
     padding-left: 15px;
   }
@@ -375,9 +377,12 @@ body {
     padding-left: 5px;
   }
   .section .btn {
-    padding-left: 10px;
+    padding-left: 5px;
     padding-top: 92px;
     position: relative;
+  }
+  .section .btn .bmi {
+    left: 43%;
   }
   .section .btn input.btnsend {
     width: 100px;
@@ -401,14 +406,14 @@ body {
     position: absolute;
     width: 100%;
     top: 90%;
-    left: 50%;
+    left: 48%;
     -webkit-transform: translateX(-50%);
             transform: translateX(-50%);
   }
   .section .resetbtn {
     position: absolute;
     top: 85%;
-    right: 30%;
+    right: 23%;
   }
 
   .content ul li table td.td_01 {
